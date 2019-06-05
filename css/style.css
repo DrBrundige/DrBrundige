@@ -7,15 +7,15 @@
 }
 
 :root {
-	--hyper-violet: #f907d6; 
+	--hyper-violet: #ff00ff; 
 	--midnight-purple: #21013f;
 	--dusk-purple: #3c0f66;
 	--midnight-indigo: #00003f;
-	--kiss-of-violet: #fff7fe;
+	--kiss-of-pink: #fff7fe;
 }
 
 body{
-	/* background-color: var(--kiss-of-violet); */
+	/* background-color: var(--kiss-of-pink); */
 }
 
 .container {
@@ -36,8 +36,8 @@ body{
 .top {
 	overflow: hidden;
 	background-color: #00003f;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 1.2rem;
+	padding-bottom: 1.2rem;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -51,11 +51,17 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .top h1 {
-	font-size: 64pt;
 	letter-spacing: 12px;
 	color: white;
 	text-shadow: 2px 2px var(--hyper-violet);
 	text-align: center;
+}
+
+.header{
+	font-size: 5rem;
+}
+.mheader{
+	font-size: 3rem;
 }
 
 .mid {
@@ -73,16 +79,20 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h2{
-	font-size: 32pt;
+	font-size: 3rem;
+}
+
+h3{
+	font-size: 2.25rem;
 }
 
 p{
-	font-size: 20pt;
+	font-size: 1.6rem;
 	color: var(--midnight-purple);
 }
 
 a{
-	font-size: 18pt;
+	font-size: 1.6rem;
 }
 
 .center{
@@ -90,14 +100,14 @@ a{
 }
 
 .portrait{
-	max-width: 30%;
+	max-width: 20rem;
 	border-radius: 50%;
 	/* display: inline-block; */
 	border: var(--dusk-purple) 4px solid;
 }
 
 .project{
-	max-width: 350px;
+	max-width: 22rem;
 	border: var(--dusk-purple) 4px solid;
 	/* box-shadow: 3px 3px var(--hyper-violet); */
 }
@@ -117,7 +127,7 @@ a{
 }
 
 .smaller h1{
-	font-size: 40pt;
+	font-size: 3rem;
 }
 
 .hidden{

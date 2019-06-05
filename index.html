@@ -30,7 +30,8 @@
 
 <body>
 	<div class="top" id="top">
-		<h1>T. BRUNDIGE JONES</h1>
+		<h1 class="header d-none d-sm-none d-md-block">T. BRUNDIGE JONES</h1>
+		<h1 class="mheader d-sm-block d-md-none">T. BRUNDIGE JONES</h1>
 	</div>
 	<div class="top hidden" id="topBuffer">
 		<h1>T. BRUNDIGE JONES</h1>
@@ -38,7 +39,8 @@
 	<div class="container">
 		<div class="row py-5">
 			<div class="col center">
-				<img class="portrait" src="imgs/portrait.jpg" title="Image credit Nick Sullo" alt="Not the portrait of T. Brundige Jones">
+				<img class="portrait" src="imgs/portrait.jpg" title="Image credit Nick Sullo"
+					alt="Not the portrait of T. Brundige Jones">
 			</div>
 		</div>
 	</div>
@@ -58,15 +60,12 @@
 	<div class="mid" id="projects">
 		<h2>PROJECTS</h2>
 	</div>
-	<div class="mid hidden" id="projectsBuffer">
-		<h2>PROJECTS</h2>
-	</div>
 	<div class="container">
 		<div class="row py-4">
-			<div class="col col-sm-4">
+			<div class="col center d-none d-sm-none d-md-block">
 				<img src="imgs/pythondashboard.jpg" alt="A screenshot of a dashboard" class="project">
 			</div>
-			<div class="col col-lg">
+			<div class="col col">
 				<h2>Dashboard</h2>
 				<p>Reports on changes to a database, logging such information such as time and success</p>
 				<p>
@@ -74,35 +73,35 @@
 				</p>
 				<a href="https://github.com/DrBrundige/dashboard">View Code</a>
 			</div>
-			<div class="row py-4">
-				<div class="col col-md">
-					<h2>TheVoid.IO</h2>
-					<p>Imitating a social media site, users can post anonymously, but are unable to respond to each other. Posts
-						are
-						deleted after a set period of time.</p>
-					<p>
-						<b>Uses C#, Entity and MySQL</b>
-					</p>
-					<a href="https://github.com/DrBrundige/CSharpVoid">View Code</a>
-				</div>
-				<div class="col col-sm-4">
-						<img src="imgs/csharpvoid.jpg" alt="A screenshot of a message board" class="project">
-					</div>
+		</div>
+		<div class="row py-4">
+			<div class="col col">
+				<h2>TheVoid.IO</h2>
+				<p>Imitating a social media site, users can post anonymously, but are unable to respond to each other. Posts
+					are
+					deleted after a set period of time.</p>
+				<p>
+					<b>Uses C#, Entity and MySQL</b>
+				</p>
+				<a href="https://github.com/DrBrundige/CSharpVoid">View Code</a>
 			</div>
-			<div class="row py-4">
-					<div class="col col-sm-4">
-							<img src="imgs/meancrossotron.jpg" alt="A screenshot of an interface" class="project">
-						</div>
-				<div class="col col-md">
-					<h2>Cross-O-Tron</h2>
-					<p>This API scans a list of 5,000 words to find every word that matches a given vowel / consonant pattern.
-						Also
-						has an Angular frontend that calls the same.</p>
-					<p>
-						<b>Uses Node, Angular, Express, and Postgres</b>
-					</p>
-					<a href="https://github.com/DrBrundige/Crossotron">View Code</a>
-				</div>
+			<div class="col center d-none d-sm-none d-md-block">
+				<img src="imgs/csharpvoid.jpg" alt="A screenshot of a message board" class="project">
+			</div>
+		</div>
+		<div class="row py-4">
+			<div class="col center d-none d-sm-none d-md-block">
+				<img src="imgs/meancrossotron.jpg" alt="A screenshot of an interface" class="project">
+			</div>
+			<div class="col">
+				<h2>Crossotron</h2>
+				<p>This API scans a list of 5,000 words to find every word that matches a given vowel / consonant pattern.
+					Also
+					has an Angular frontend that calls the same.</p>
+				<p>
+					<b>Uses Node, Angular, Express, and Postgres</b>
+				</p>
+				<a href="https://github.com/DrBrundige/Crossotron">View Code</a>
 			</div>
 		</div>
 	</div>
@@ -140,7 +139,7 @@
 	</div>
 	<div class="container">
 		<div class="row py-2">
-			<div class="col col-lg">
+			<div class="col">
 				<h2>Coding Dojo</h2>
 				<p>Certified in Web Development for C#, MEAN, and Python following a fourteen-week course</p>
 				<p>Graduated May 2019</p>
@@ -156,13 +155,15 @@
 	</div>
 	<div class="container">
 		<div class="row pt-4 pb-4">
-			<div class="col col-md">
-				<h2 class="center">BrundigeJones@Gmail.com</h2>
+			<div class="col">
+				<h2 class="center d-none d-sm-none d-md-block py-5">BrundigeJones@Gmail.com</h2>
+				<h3 class="center d-sm-block d-md-none py-5">BrundigeJones@Gmail.com</h3>
+				<p class="pt-5 center"><i>Copywrite T. Brundige Jones 2019</i></p>
 			</div>
 		</div>
 	</div>
 
-	<script>
+	<!-- <script>
 		window.onscroll = function () { myFunction() };
 
 		// Get the navbar
@@ -211,7 +212,7 @@
 			// 	historyBuffer.classList.add("hidden")
 			// }
 		}
-	</script>
+	</script> -->
 
 </body>
 
