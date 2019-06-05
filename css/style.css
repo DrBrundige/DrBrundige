@@ -63,6 +63,9 @@ h1,h2,h3,h4,h5,h6 {
 .mheader{
 	font-size: 3rem;
 }
+.xsheader{
+	font-size: 2rem;
+}
 
 .mid {
 	background-color: var(--dusk-purple);
