@@ -91,6 +91,7 @@ h3{
 
 p{
 	font-size: 1.6rem;
+	/* font-size: 2vw; */
 	color: var(--midnight-purple);
 }
 
@@ -102,16 +103,24 @@ a{
 	text-align: center;
 }
 
+img{
+	border: var(--dusk-purple) 4px solid;
+}
+
 .portrait{
 	max-width: 20rem;
 	border-radius: 50%;
 	/* display: inline-block; */
-	border: var(--dusk-purple) 4px solid;
+}
+
+.mportrait{
+	max-width: 60%;
+	border-radius: 50%;
+	/* display: inline-block; */
 }
 
 .project{
 	max-width: 22rem;
-	border: var(--dusk-purple) 4px solid;
 	/* box-shadow: 3px 3px var(--hyper-violet); */
 }
 
