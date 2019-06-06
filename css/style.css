@@ -19,19 +19,13 @@ body{
 }
 
 .container {
-	/* margin: 0 auto;
-	padding: 0px;
-	padding: 10px 30px;
-	align-content: center;
-	vertical-align: top;
-	max-width: 960px; */
 	width: 80%;
 	background-color: white;
 }
 
-.col{
+/* .col{
 	position: static;
-}
+} */
 
 .top {
 	overflow: hidden;
@@ -74,29 +68,49 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .mid h2 {
-	font-size: 40pt;
+	/* font-size: 40pt; */
 	letter-spacing: 8px;
 	color: white;
 	text-shadow: 2px 2px var(--hyper-violet);
 	text-align: center;
 }
 
-h2{
-	font-size: 3rem;
+/* Links */
+h2 a, h3 a, h2 a:hover, h3 a:hover{
+	color: var(--midnight-indigo);
+	text-shadow: 1px 1px var(--hyper-violet);
 }
 
-h3{
-	font-size: 2.25rem;
+h2, h2 a{
+	font-size: 2rem;
 }
 
-p{
-	font-size: 1.6rem;
+h3, h3 a{
+	font-size: 1.75rem;
+}
+
+a, a:hover{
+	color: var(--dusk-purple);
+}
+
+p, a{
+	font-size: 1rem;
 	/* font-size: 2vw; */
 	color: var(--midnight-purple);
 }
 
-a{
-	font-size: 1.6rem;
+@media (min-width: 576px) {
+	p, a{
+		font-size: 1.6rem;
+	}
+
+	h2, h2 a{
+		font-size: 3rem;
+	}
+
+	h3, h3 a{
+		font-size: 2.5rem;
+	}
 }
 
 .center{
