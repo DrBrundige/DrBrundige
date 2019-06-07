@@ -7,20 +7,31 @@
 }
 
 :root {
-	--hyper-violet: #ff00ff; 
+	--hyper-violet: #c500e4;
+	--hyper-cyan: #11cfda;
+	--dusk-purple: #380749;
+	--dusk-cyan: #00696e;
+	--midnight-purple: #1d0030;
+	--midnight-indigo: #001524;
+
+	/* --hyper-violet: #ff00ff; 
 	--midnight-purple: #21013f;
 	--dusk-purple: #3c0f66;
 	--midnight-indigo: #00003f;
-	--kiss-of-pink: #fff7fe;
-}
-
-body{
-	/* background-color: var(--kiss-of-pink); */
+	--kiss-of-pink: #fff7fe; */
 }
 
 .container {
-	width: 80%;
-	background-color: white;
+	width: 100%;
+	background-color: #ffffffe0;
+}
+
+.first{
+	background: none;
+}
+
+.first p{
+	color: #fff7fe
 }
 
 /* .col{
@@ -47,7 +58,7 @@ h1,h2,h3,h4,h5,h6 {
 .top h1 {
 	letter-spacing: 12px;
 	color: white;
-	text-shadow: 2px 2px var(--hyper-violet);
+	text-shadow: 2px 2px var(--hyper-cyan);
 	text-align: center;
 }
 
@@ -63,8 +74,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .mid {
 	background-color: var(--dusk-purple);
-	padding-top: 16px;
-	padding-bottom: 16px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 }
 
 .mid h2 {
@@ -76,9 +87,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /* Links */
-h2 a, h3 a, h2 a:hover, h3 a:hover{
+h2 a, h3 a{
 	color: var(--midnight-indigo);
-	text-shadow: 1px 1px var(--hyper-violet);
+	text-shadow: 1px 1px var(--hyper-cyan);
 }
 
 h2, h2 a{
@@ -89,8 +100,10 @@ h3, h3 a{
 	font-size: 1.75rem;
 }
 
-a, a:hover{
-	color: var(--dusk-purple);
+a:hover{
+	/* font-weight: bold; */
+	color: var(--hyper-cyan);
+	text-shadow: 1px 1px var(--dusk-cyan);
 }
 
 p, a{
@@ -99,7 +112,7 @@ p, a{
 	color: var(--midnight-purple);
 }
 
-@media (min-width: 576px) {
+@media (min-width: 640px) {
 	p, a{
 		font-size: 1.6rem;
 	}
@@ -111,6 +124,10 @@ p, a{
 	h3, h3 a{
 		font-size: 2.5rem;
 	}
+
+	.container{
+		width: 85%;
+	}
 }
 
 .center{
@@ -118,7 +135,7 @@ p, a{
 }
 
 img{
-	border: var(--dusk-purple) 4px solid;
+	border: var(--hyper-cyan) 4px solid;
 }
 
 .portrait{
