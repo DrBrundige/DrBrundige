@@ -44,163 +44,163 @@
 		background-size: cover;
 	} */
 
-	.bg {
-		background-image: url("imgs/chrisovalle.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-
-		background-attachment: fixed;
-		overflow: auto;
-		width: 100%;
-		min-height: 100%;
-		/* height: 100%; */
-		line-height: 2em;
+	@media (min-width: 640px) {	
+		.bg {
+			background-image: url("imgs/chrisovalle.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			
+			background-attachment: fixed;
+			overflow: auto;
+			width: 100%;
+			min-height: 100%;
+			/* height: 100%; */
+			line-height: 2em;
+		}
 	}
 </style>
 
 <body>
-	<div class="bg">
-		<div class="top" id="top">
-			<!-- <h1 class="header">T. BRUNDIGE JONES</h1> -->
-			<h1 class="header d-none d-sm-none d-md-block">T. BRUNDIGE JONES</h1>
-			<h1 class="mheader d-none d-sm-block d-md-none">T. BRUNDIGE JONES</h1>
-			<h1 class="xsheader d-block d-sm-none">T. BRUNDIGE JONES</h1>
-		</div>
-		<div class="top hidden" id="topBuffer">
-			<h1>T. BRUNDIGE JONES</h1>
-		</div>
-		<div class="container px-5">
-			<div class="row py-5">
-				<div class="col center">
-					<img class="portrait  d-none d-sm-none d-md-inline" src="imgs/portrait.jpg" title="Image credit Nick Sullo"
-						alt="Not the portrait of T. Brundige Jones">
-					<img class="mportrait d-sm-inline d-md-none" src="imgs/portrait.jpg" title="Image credit Nick Sullo"
-						alt="Not the portrait of T. Brundige Jones">
-				</div>
+	<!-- <div class="bg"> -->
+	<div class="top" id="top">
+		<!-- <h1 class="header">T. BRUNDIGE JONES</h1> -->
+		<h1 class="header d-none d-sm-none d-md-block">T. BRUNDIGE JONES</h1>
+		<h1 class="mheader d-none d-sm-block d-md-none">T. BRUNDIGE JONES</h1>
+		<h1 class="xsheader d-block d-sm-none">T. BRUNDIGE JONES</h1>
+	</div>
+	<div class="top hidden" id="topBuffer">
+		<h1>T. BRUNDIGE JONES</h1>
+	</div>
+	<div class="container px-5">
+		<div class="row py-5">
+			<div class="col center">
+				<img class="portrait  d-none d-sm-none d-md-inline" src="imgs/portrait.jpg" title="Image credit Nick Sullo"
+					alt="Not the portrait of T. Brundige Jones">
+				<img class="mportrait d-sm-inline d-md-none" src="imgs/portrait.jpg" title="Image credit Nick Sullo"
+					alt="Not the portrait of T. Brundige Jones">
 			</div>
 		</div>
-		<div class="container px-5">
-			<div class="row">
-				<div class="col col-lg">
-					<h2 class="center">About Me</h2>
-					<p>I am a total hack located in Tulsa, OK. I have nothing but contempt for
-						the concepts of web
-						development, coding, and tech in general. Nowhere am I more despondent then when I am coming up with
-						innovative solutions to complex problems</p>
-					<p>My highest ambition is to support myself independently and am seeking a position that provides me with the
-						means to do this.</p>
-				</div>
+	</div>
+	<div class="container px-5 py-3">
+		<div class="row">
+			<div class="col col-lg">
+				<h2 class="center">About Me</h2>
+				<p>I am allegedly a developer located in Tulsa, OK. Nowhere am I more despondent then when I am coming up with innovative solutions to complex problems. I have a keen sense of dispassionate loathing for the concepts of web development, coding, and tech in general.</p>
+				<p>My highest ambition is to support myself independently and am seeking a position that provides me with the
+					means to do this.</p>
 			</div>
 		</div>
+	</div>
 
-		<div class="mid" id="projects">
-			<h2>PROJECTS</h2>
-		</div>
-		<div class="container px-5">
-			<div class="row py-4">
-				<div class="col center d-none d-sm-none d-md-block">
-					<img src="imgs/pythondashboard.jpg" alt="A screenshot of a dashboard" class="project">
-				</div>
-				<div class="col col">
-					<h3>Dashboard</h3>
-					<p>Reports on changes to a database, logging such information such as time and success</p>
-					<p>
-						<b>Uses Python, Flask, and MySQL</b>
-					</p>
-					<a href="https://github.com/DrBrundige/dashboard">View Code</a>
-				</div>
+	<div class="mid px-2" id="projects">
+		<h2>PROJECTS</h2>
+	</div>
+	<div class="container px-5 py-3">
+		<div class="row py-4">
+			<div class="col center d-none d-sm-none d-md-block">
+				<img src="imgs/pythondashboard.jpg" alt="A screenshot of a dashboard" class="project">
 			</div>
-			<div class="row py-4">
-				<div class="col col">
-					<h3>TheVoid.IO</h3>
-					<p>Imitating a social media site, users can post anonymously, but are unable to respond to each other. Posts
-						are
-						deleted after a set period of time.</p>
-					<p>
-						<b>Uses C#, Entity and MySQL</b>
-					</p>
-					<a href="https://github.com/DrBrundige/CSharpVoid">View Code</a>
-				</div>
-				<div class="col center d-none d-sm-none d-md-block">
-					<img src="imgs/csharpvoid.jpg" alt="A screenshot of a message board" class="project">
-				</div>
-			</div>
-			<div class="row py-4">
-				<div class="col center d-none d-sm-none d-md-block">
-					<img src="imgs/meancrossotron.jpg" alt="A screenshot of an interface" class="project">
-				</div>
-				<div class="col">
-					<h3>Crossotron</h3>
-					<p>This API scans a list of 5,000 words to find every word that matches a given vowel / consonant pattern.
-						Also
-						has an Angular frontend that calls the same.</p>
-					<p>
-						<b>Uses Node, Angular, Express, and Postgres</b>
-					</p>
-					<a href="https://github.com/DrBrundige/Crossotron">View Code</a>
-				</div>
+			<div class="col col">
+				<h3>Dashboard</h3>
+				<p>Reports on changes to a database, logging such information such as time and success</p>
+				<p>
+					<b>Uses Python, Flask, and MySQL</b>
+				</p>
+				<a href="https://github.com/DrBrundige/dashboard" target="_blank">View Code</a>
 			</div>
 		</div>
+		<div class="row py-4">
+			<div class="col col">
+				<h3>TheVoid.IO</h3>
+				<p>Imitating a social media site, users can post anonymously, but are unable to interact with each other. Posts older than five days cannot be retrieved.</p>
+				<p>
+					<b>Uses C#, Entity and MySQL</b>
+				</p>
+				<p>
+					<a href="https://github.com/DrBrundige/CSharpVoid" target="_blank">View Code</a> | <a href="http://18.212.57.32/" target="_blank">Live
+						Project</a>
+				</p>
+			</div>
+			<div class="col center d-none d-sm-none d-md-block">
+				<img src="imgs/csharpvoid.jpg" alt="A screenshot of a message board" class="project">
+			</div>
+		</div>
+		<div class="row py-4">
+			<div class="col center d-none d-sm-none d-md-block">
+				<img src="imgs/meancrossotron.jpg" alt="A screenshot of an interface" class="project">
+			</div>
+			<div class="col">
+				<h3>Crossotron</h3>
+				<p>This API scans a list of 5,000 words to find every word that matches a given vowel / consonant pattern.
+					Also
+					has an Angular frontend that calls the same.</p>
+				<p>
+					<b>Uses Node, Angular, Express, and Postgres</b>
+				</p>
+				<a href="https://github.com/DrBrundige/Crossotron" target="_blank">View Code</a>
+			</div>
+		</div>
+	</div>
 
-		<div class="mid" id="history">
-			<h2>WORK HISTORY</h2>
-		</div>
-		<div class="mid hidden" id="historyBuffer">
-			<h2>WORK HISTORY</h2>
-		</div>
-		<div class="container px-5">
-			<div class="row py-2">
-				<div class="col col-lg">
-					<h3>Name Brand Clothing</h3>
-					<p>October 2018 – January 2019</p>
-					<p><b>Merchandising Analyst:</b> I took a seasonal job with NBC 2019 after leaving
-						Scout. I developed improvements to their Excel sheets and worked alongside their database but didn't do any
-						coding directly.</p>
-					<h3>Scout FDC</h3>
-					<p>June – September 2018</p>
-					<p><b>Development Intern:</b> I took a temporary position with Scout from June to September 2018 following my
-						graduation from college. There I reverse-engineered their mule and developed a program that reported on
-						changes
-						to a database to Slack.</p>
-					<h3>Devco USA (Matrix Service Co.)</h3>
-					<p>June 2015 – August 2016</p>
-					<p><b>Marketing Assistant:</b> After graduating high school I took a gap year to work with Devco USA. I did
-						everything from spending analysis, prospect tracking and SEO to paperwork and running errands.</p>
-				</div>
+	<div class="mid px-2" id="history">
+		<h2>WORK HISTORY</h2>
+	</div>
+	<div class="mid hidden" id="historyBuffer">
+		<h2>WORK HISTORY</h2>
+	</div>
+	<div class="container px-5 py-3">
+		<div class="row py-2">
+			<div class="col col-lg">
+				<h3>Name Brand Clothing</h3>
+				<p>October 2018 – January 2019</p>
+				<p><b>Merchandising Analyst:</b> I took a seasonal job with NBC 2019 after leaving
+					Scout. I developed improvements to their Excel sheets and worked alongside their database but didn't do any
+					coding directly.</p>
+				<h3>Scout FDC</h3>
+				<p>June – September 2018</p>
+				<p><b>Development Intern:</b> I took a temporary position with Scout from June to September 2018 following my
+					graduation from college. There I reverse-engineered their mule and developed a program that reported on
+					changes
+					to a database to Slack.</p>
+				<h3>Devco USA (Matrix Service Co.)</h3>
+				<p>June 2015 – August 2016</p>
+				<p><b>Marketing Assistant:</b> After graduating high school I took a gap year to work with Devco USA. I did
+					everything from spending analysis, prospect tracking and SEO to paperwork and running errands.</p>
 			</div>
 		</div>
+	</div>
 
-		<div class="mid">
-			<h2>FORMAL EDUCATION</h2>
-		</div>
-		<div class="container px-5">
-			<div class="row py-2">
-				<div class="col">
-					<h3>Coding Dojo</h3>
-					<p>Certified in Web Development for C#, MEAN, and Python following a fourteen-week course</p>
-					<p>Graduated May 2019</p>
-					<h3>Tulsa Community College</h3>
-					<p>Associate’s in Science, Computer Information Systems</p>
-					<p>Graduated Spring 2018</p>
-				</div>
+	<div class="mid px-2">
+		<h2>FORMAL EDUCATION</h2>
+	</div>
+	<div class="container px-5 py-3">
+		<div class="row py-2">
+			<div class="col">
+				<h3>Coding Dojo</h3>
+				<p>Certified in Web Development for C#, MEAN, and Python following a fourteen-week course</p>
+				<p>Graduated May 2019</p>
+				<h3>Tulsa Community College</h3>
+				<p>Associate’s in Science, Computer Information Systems</p>
+				<p>Graduated Spring 2018</p>
 			</div>
 		</div>
+	</div>
 
-		<div class="mid">
-			<h2>CONTACT ME</h2>
-		</div>
-		<div class="container px-5">
-			<div class="row pt-4 pb-4">
-				<div class="col">
-					<h3 class="center py-4"><a href="mailto: BrundigeJones@Gmail.com">BrundigeJones@Gmail.com</a>
-					</h3>
-					<h3 class="center py-4"><a href="https://www.linkedin.com/in/brundige-jones-8a394093/">My
-							LinkedIn</a></h3>
-					<p class="pt-5 center"><i>Copywrite T. Brundige Jones 2019</i></p>
-				</div>
+	<div class="mid px-2">
+		<h2>CONTACT ME</h2>
+	</div>
+	<div class="container px-5 py-3">
+		<div class="row pt-4 pb-4">
+			<div class="col">
+				<h3 class="center py-4"><a href="mailto: BrundigeJones@Gmail.com">BrundigeJones@Gmail.com</a>
+				</h3>
+				<h3 class="center py-4"><a href="https://www.linkedin.com/in/brundige-jones-8a394093/">My
+						LinkedIn</a></h3>
+				<p class="pt-5 center"><i>Copywrite T. Brundige Jones 2019</i></p>
 			</div>
 		</div>
+		<!-- </div> -->
 
 
 	</div>

@@ -7,18 +7,19 @@
 }
 
 :root {
-	--hyper-violet: #c500e4;
+	/* --hyper-violet: #c500e4;
 	--hyper-cyan: #11cfda;
 	--dusk-purple: #380749;
 	--dusk-cyan: #00696e;
 	--midnight-purple: #1d0030;
-	--midnight-indigo: #001524;
+	--midnight-indigo: #001524; */
 
-	/* --hyper-violet: #ff00ff; 
-	--midnight-purple: #21013f;
+	--hyper-violet: #ff00ff; 
+	--hyper-cyan: #00ffff;
 	--dusk-purple: #3c0f66;
+	--dusk-cyan: #0f666e;
+	--midnight-purple: #21013f;
 	--midnight-indigo: #00003f;
-	--kiss-of-pink: #fff7fe; */
 }
 
 .container {
@@ -97,16 +98,21 @@ h2, h2 a{
 }
 
 h3, h3 a{
-	font-size: 1.75rem;
+	font-size: 1.25rem;
 }
 
 a:hover{
-	/* font-weight: bold; */
 	color: var(--hyper-cyan);
 	text-shadow: 1px 1px var(--dusk-cyan);
 }
 
-p, a{
+a{
+	font-size: 1rem;
+	font-weight: bold;
+	color: var(--dusk-cyan);
+}
+
+p{
 	font-size: 1rem;
 	/* font-size: 2vw; */
 	color: var(--midnight-purple);
