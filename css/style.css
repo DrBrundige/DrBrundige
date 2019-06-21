@@ -98,7 +98,11 @@ h2, h2 a{
 }
 
 h3, h3 a{
-	font-size: 1.25rem;
+	font-size: 1.4rem;
+}
+
+.email{
+	font-size: 1.1rem;
 }
 
 a:hover{
@@ -127,7 +131,7 @@ p{
 		font-size: 3rem;
 	}
 
-	h3, h3 a{
+	h3, h3 a, .email{
 		font-size: 2.5rem;
 	}
 
