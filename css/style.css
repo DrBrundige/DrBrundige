@@ -14,8 +14,15 @@
 	--midnight-purple: #1d0030;
 	--midnight-indigo: #001524; */
 
-	--hyper-violet: #ff00ff; 
-	--hyper-cyan: #00ffff;
+	--white-void:  #ffffff;
+	--hyper-yellow:#ffff00;
+	--hyper-violet:#ff00ff; 
+	--hyper-red:   #ff0000;
+	--hyper-cyan:  #00ffff;
+	--hyper-lime:  #00ff00;
+	--hyper-blue:  #0000ff;
+	--black-void:  #000000;
+
 	--dusk-purple: #3c0f66;
 	--dusk-cyan: #0f666e;
 	--midnight-purple: #21013f;
