@@ -14,33 +14,41 @@
 	--midnight-purple: #1d0030;
 	--midnight-indigo: #001524; */
 
-	--white-void:  #ffffff;
-	--hyper-yellow:#ffff00;
-	--hyper-violet:#ff00ff; 
 	--hyper-red:   #ff0000;
-	--hyper-cyan:  #00ffff;
+	--hyper-orange:#ff8000;
+	--hyper-yellow:#ffff00;
 	--hyper-lime:  #00ff00;
+	--hyper-cyan:  #00ffff;
 	--hyper-blue:  #0000ff;
-	--black-void:  #000000;
+	--hyper-purple:  #8000ff;
+	--hyper-violet:#ff00ff; 
+	--hyper-rose: #ff0080;
 
+	--dawn-pink: #ffd9d9;
+	--dawn-peach: #ffecd9;
+
+	--dusk-gold: #d9bf41;
+	--dusk-emerald: #45a632;
 	--dusk-purple: #3c0f66;
 	--dusk-cyan: #0f666e;
+	--midnight-amber: #332d0f;
+	--midnight-emerald: #15330f;
 	--midnight-purple: #21013f;
 	--midnight-indigo: #00003f;
 }
 
 .container {
 	width: 100%;
-	background-color: #ffffffe0;
+	/* background-color: var(--dawn-pink); */
 }
 
-.first{
+/* .first{
 	background: none;
 }
 
 .first p{
 	color: #fff7fe
-}
+} */
 
 /* .col{
 	position: static;
@@ -48,7 +56,7 @@
 
 .top {
 	overflow: hidden;
-	background-color: #00003f;
+	background-color: var(--midnight-indigo);
 	padding-top: 1.2rem;
 	padding-bottom: 1.2rem;
 }
