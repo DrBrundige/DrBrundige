@@ -62,13 +62,21 @@
 	padding-bottom: 1.2rem;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3 {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 900;
+	font-weight: 700;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	color: var(--hyper-violet);
 	text-shadow: 1px 1px var(--midnight-purple);
+	text-align: left;
+}
+
+h4 {
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: var(--dusk-purple);
 	text-align: left;
 }
 
@@ -132,14 +140,14 @@ a{
 	color: var(--dusk-cyan);
 }
 
-p{
+p, li{
 	font-size: 1rem;
 	/* font-size: 2vw; */
 	color: var(--midnight-purple);
 }
 
 @media (min-width: 640px) {
-	p, a{
+	p, a, li{
 		font-size: 1.6rem;
 	}
 
